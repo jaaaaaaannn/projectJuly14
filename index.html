@@ -51,6 +51,9 @@
           <li class="page-scroll">
             <a href="#carou">Contact Us</a>
           </li>
+          <li class="page-scroll">
+            <a href="#carou">09-22-56244</a>
+          </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -63,10 +66,44 @@
     <div class="intro-body">
       <div class="container">
         <div class="row">
-           <h1><span class="light">A Class Above.</span> Guaranteed</h1>
-          <!-- Standard button -->
-          <button type="button" class="btn btn-default">Login</button>
-          <button type="button" class="btn btn-info">Register</button>
+          <div class="slogan"><h1><span class="light">A Class Above.</span> <b>Guaranteed</b></h1></div>
+          <div class="form">
+            <!-- LOGIN FORM -->
+            <form role="form" class="form-login" method="post" action="projectJuly14/process.php">
+              <div class="form-group">
+                <label for="user">Username</label>
+                <input type="text" class="form-control" name="user" placeholder="Enter your Username">
+              </div>
+              <div class="form-group">
+                <label for="pass">Password</label>
+                <input type="password" class="form-control" name="pass" placeholder="Password">
+              </div>
+              <input type="hidden" name="sublogin" value="1">
+              <button type="submit" style="display:none"></button>
+            </form>
+            <!-- END LOGIN FORM -->
+            <!-- REGISTRATION FORM -->
+             <form role="form" class="form-register" method="post" action="process.php">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div><div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+            </form>
+            <!-- END REGISTRATION FORM -->
+          </div>
+          <button id="login" type="button" class="btn btn-default">Login</button>
+          <button id="register" type="button" class="btn btn-info">Register</button>
         </div>
       </div>
     </div>
@@ -75,5 +112,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- compiled and minified Bootstrap JavaScript -->
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="theme/js/script.js"></script>
     </body>
 </html>

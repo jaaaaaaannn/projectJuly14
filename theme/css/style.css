@@ -4,3 +4,20 @@
 .intro-body button {
   width: 100px;
 }
+.form {
+  text-align: center;
+}
+.form form {
+  width: 50%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: rgba(0,0,0,0.3);
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.form .form-login, .form .form-register {
+  display: none;
+}
