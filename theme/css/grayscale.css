@@ -141,16 +141,22 @@ a:focus {
     color: #fff;
     background-color: rgba(0,0,0,0.5);
 }
+.about {
+    display: table;
+    height: auto;
+    width: 100%
+}
 
 
-.intro-body {
+.intro-body, .about-body {
     display: table-cell;
     vertical-align: middle;
+    text-align: left;
+    width: 100%;
 }
 
 .about-section {
   
-    width: 100%;
     padding: 50px 0;
     color: #fff;
     background: url(http://wallpoper.com/images/00/37/64/94/monochrome-dear_00376494.jpg) no-repeat center center scroll;
@@ -170,10 +176,11 @@ a:focus {
 }
 
 @media(min-width:767px) {
-    .intro {
+    .intro, .about {
         height: 100%;
         padding: 0;
     }
+
 
     .brand-heading {
         font-size: 100px;
