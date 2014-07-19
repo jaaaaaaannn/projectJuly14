@@ -7,17 +7,12 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="shortcut icon" href="">
-        <title>K-Talkingnet</title>
+        <title>Starter Template for Bootstrap</title>
         
         <link href="theme/css/grayscale.css" rel="stylesheet">
-        <link href="theme/css/style.css" rel="stylesheet">
         <!-- Bootstrap core CSS -->
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -34,7 +29,7 @@
           <i class="fa fa-bars"></i>
         </button>
         <a class="navbar-brand navbar-visibility" href="#page-top">
-          <i class="fa fa-child"></i>  <span class="light">K-TALKING</span>NET
+          <i class="fa fa-rocket"></i>  <span class="light">Jan</span> Manaloto
         </a>
       </div>
 
@@ -43,13 +38,13 @@
         <ul class="nav navbar-nav">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden">
-            <a href="#page-top">Home</a>
+            <a href="#page-top"></a>
           </li>
           <li class="page-scroll">
-            <a href="#about">About Us</a>
+            <a href="#about">JQuery</a>
           </li>
           <li class="page-scroll">
-            <a href="#carou">Contact Us</a>
+            <a href="#carou">Carousel</a>
           </li>
         </ul>
       </div>
@@ -63,10 +58,15 @@
     <div class="intro-body">
       <div class="container">
         <div class="row">
-           <h1><span class="light">A Class Above.</span> Guaranteed</h1>
-          <!-- Standard button -->
-          <button type="button" class="btn btn-default">Login</button>
-          <button type="button" class="btn btn-info">Register</button>
+          <div class="col-md-6">
+            <h2 class="brand-heading"><i class="fa fa-rocket"></i>  <span class="light">Jan</span> Manaloto</h2>
+            <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+            <div class="page-scroll">
+              <a href="#about" class="btn btn-default">
+                CONTINUE
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
